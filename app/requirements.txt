@@ -3,10 +3,7 @@ llama-index
 llama-index-agent-openai
 llama-index-embeddings-openai
 llama-index-llms-openai
-llama-index-agent-openai-legacy
 llama-index-readers-file 
-llama-index-vector-stores-chroma
-chromadb
 llama-index-storage-docstore-mongodb
 llama-index-storage-index-store-mongodb
 llama-index-vector-stores-mongodb
@@ -14,4 +11,4 @@ pymongo
 motor
 python-dotenv
 llama-index-retrievers-bm25
-gunicorn
+
