@@ -7,7 +7,6 @@ from llama_index.core.response_synthesizers import ResponseMode
 from llama_index.core import get_response_synthesizer
 from data_definitions.constants import SYSTEM_MESSAGE
 from services.knowledge_base_services import get_all_course
-import chromadb
 router = APIRouter(
     prefix="/query",
     tags=["query"]
